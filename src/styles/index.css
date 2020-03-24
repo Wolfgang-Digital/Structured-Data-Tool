@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.light-mode {
+  background: #fafafa;
+}
+
+[class$='-container'] {
+  font-size: 0.875rem;
+  font-family: 'Montserrat';
+}
+
+code > span {
+  white-space: pre-wrap;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
